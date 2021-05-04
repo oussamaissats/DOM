@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link ref="stylesheet" href="css/style.css"/>
+    <link
+      rel="icon"
+      href="https://upload.wikimedia.org/wikipedia/commons/c/c6/Logo_celio_2016.svg"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Celio</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script
+    src="https://kit.fontawesome.com/fcdbb5efb6.js"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    <header>
+        
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+              <div class></div>
+              <div class="navbar-header">
+                <a class="navbar-brand" href="#">Celio</a>
+              </div>
+
+
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">Home</a></li>
+                <li><a href="#">Collection</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+
+
+              <form class="navbar-form navbar-right" action="/action_page.php">
+                <div class="input-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Search"
+                    name="search"
+                  />
+                  <div class="input-group-btn"></div>
+                </div>
+              </form>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+          
+          
+            <div class="article">
+            <h3>Chemise</h3>
+            <img src="images/product-media-import-1049665-3-zoom.jpg" alt="chemise" height="350" width="250" />
+            <div><span class="prix"> 60 </span><span>€</span></div>
+            <div class="articlecontainer">
+              <button class="butt" id="1">+</button>
+              <span class="score">0</span>
+  
+              <button class="buttMinus" >-</button>
+
+              <button id="like" class="like"  >
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="trash" ><i class="fas fa-trash-restore-alt"></i></button>
+              
+            </div>
+          </div>
+          
+          
+  
+          <div class="article">
+            <h3>pull</h3>
+            <img src="/images/product-media-import-1091980-3-zoom.jpg" alt="shirt" height="350" width="250" />
+            <div ><span class="prix">25</span><span>€</span></div>
+            <div class="articlecontainer">
+              <button class="butt" id="3">+</button>
+              <span class="score">0</span>
+              <button class="buttMinus" >-</button>
+              
+              <button id="like" class="like"  >
+                <i class="far fa-heart"></i>
+              </button>
+              <button class="trash" ><i class="fas fa-trash-restore-alt"></i></button>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="totalSomme">
+          <div>
+            <span> Total : </span>
+            <span class="total" id="total"> 0 </span>
+            <span>€</span>
+          </div>
+        </div>
+      </main>
+  
+      <footer></footer>
+  
+      <script src="Js/main.js"></script>
+</body>
+</html>
